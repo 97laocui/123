@@ -1,0 +1,121 @@
+/*
+* @Author: admin
+* @Date:   2019-11-27 18:35:22
+* @Last Modified by:   admin
+* @Last Modified time: 2019-11-29 18:00:07
+*/
+/* 我的位置 */
+	.location{
+		/* width: 100%; */
+		height: 50px;
+		background-color: #fff;
+	}
+	.location p{
+		color: #999;
+		font-size: 15px;
+		line-height: 50px;
+		user-select: none;
+		/* letter-spacing: 10px; */
+	}
+ /* 左边内容 */
+ 	.content{
+ 		overflow: hidden;
+ 		margin: 20px 0;
+ 	}
+ 	.content_left{
+ 		/* margin: 5px; */
+ 		float: left;
+ 		width: 200px;
+ 	}
+ 	.content_left li a{
+ 		width: 200px;
+ 		height: 30px;
+ 		margin: 15px 0;
+ 	}
+/* 右边内容 */
+ 	.content_right{
+ 		margin-left: 250px;
+ 		overflow: hidden;
+ 	}
+ 	.content_right li {
+ 	    height: 120px;
+ 	    margin: 15px 0;
+ 	    padding: 10px 10px;
+ 	    border-bottom: 1px solid #999;
+ 	}
+ 	.content_right ul li>a{
+		float: left;
+		width: 100px;
+		height: 100px;
+		margin-right: 20px;
+		border: 1px solid red;
+		background-image: url('../images/sheet1.jpg');
+		background-size: contain;
+		box-shadow: 0 6px 15px -6px;
+ 	}
+ 	.content_right ul:nth-child(2) li>a{
+		background-image: url('../images/sheet2.jpg');
+ 	}
+ 	.content_right ul:nth-child(3) li>a{
+		background-image: url('../images/sheet3.jpg');
+ 	}
+ 	.content_right ul:nth-child(4) li>a{
+		background-image: url('../images/sheet4.jpg');
+ 	}
+ 	.content_right li>.songName{
+		height: 100px;
+		margin-left: 110px;
+ 	}
+ 	.content_right li>.songName>div{
+ 		float: left;
+ 	}
+ 	.songName>div span{
+ 		display: inline-block;
+ 		margin: 5px 0 20px;
+		user-select: none;
+		color: #999;
+ 	}
+ 	.songName>div .play{
+		margin-right: 10px;
+		position: relative;
+ 	}
+ 	.songName>div .play::before{
+		content:"";
+		position: absolute;
+		top: 0;
+		left: 10px;
+		width: 30px;
+		height: 30px;
+		background-image: url('../images/icon_splice.png');
+		background-position: 0 -82px;
+ 	}
+ 	.songName>div .share{
+		margin-right: 10px;
+		position: relative;
+ 	}
+ 	.songName>div .share::before{
+		content:"";
+		position: absolute;
+		top: 0;
+		left: 10px;
+		width: 30px;
+		height: 30px;
+		background-image: url('../images/icon_splice.png');
+		background-position: -300px -82px;
+ 	}
+ 	.content_right li>.songName>i{
+		float: right;
+		user-select: none;
+ 	}
+ /* 内容底部 */
+ 	.content_bottom{
+ 		clear: both;
+ 		margin: 20px 0;
+ 		height: 50px;
+ 		padding: 3px 0 0 700px;
+ 		overflow: hidden;
+ 	}
+ 	.content_bottom span{
+ 		font-size: 18px;
+		user-select: none;
+ 	}
